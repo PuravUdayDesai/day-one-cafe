@@ -9,6 +9,6 @@ const episodes = [
     episode: 1,
     title: "Opportunity Recognition",
     thumbnail: "thumbnails/episode-1.png",
-    url: "",
+    url: "https://lnkd.in/p/gdWCcRKt",
   },
 ];
