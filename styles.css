@@ -55,26 +55,63 @@ h1 .cafe {
   letter-spacing: 0.01em;
 }
 
+.schedule {
+  margin: 1.35rem 0 0;
+  font-size: clamp(1.15rem, 3vw, 1.4rem);
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.schedule span {
+  display: block;
+  margin-top: 0.15rem;
+  color: var(--orange);
+}
+
+.follow {
+  display: inline-block;
+  margin-top: 1.2rem;
+  padding: 0.7rem 1.3rem 0.75rem;
+  border-radius: 999px;
+  background: var(--orange);
+  color: var(--cream);
+  font-size: 1.02rem;
+  font-weight: 800;
+  text-decoration: none;
+  box-shadow: 0 10px 24px rgba(200, 85, 42, 0.28);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.follow:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 28px rgba(200, 85, 42, 0.34);
+}
+
+.follow:focus-visible {
+  outline: 3px solid var(--brown);
+  outline-offset: 4px;
+}
+
 .episodes {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1.75rem;
-  max-width: 1160px;
+  gap: 12px;
+  width: min(1120px, calc(100% - 28px));
   margin: 0 auto;
-  padding: 0.25rem 1.25rem 4.5rem;
+  padding: 0.25rem 0 4.5rem;
   list-style: none;
 }
 
 .episode {
-  width: min(100%, 340px);
+  width: calc((100% - 12px) / 2);
 }
 
 .episode a,
 .episode .card {
   display: block;
   overflow: hidden;
-  border-radius: 28px;
+  border-radius: 16px;
   background: var(--cream);
   box-shadow: var(--shadow);
 }
@@ -99,12 +136,25 @@ h1 .cafe {
   height: auto;
 }
 
+@media (min-width: 1024px) {
+  .episodes {
+    gap: 16px;
+    width: min(1200px, calc(100% - 48px));
+  }
+
+  .episode {
+    width: calc((100% - 64px) / 5);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .episode a {
+  .episode a,
+  .follow {
     transition: none;
   }
 
-  .episode a:hover {
+  .episode a:hover,
+  .follow:hover {
     transform: none;
   }
 }
