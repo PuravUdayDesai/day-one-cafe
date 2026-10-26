@@ -93,18 +93,18 @@ h1 .cafe {
 }
 
 .episodes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 12px;
-  width: min(1120px, calc(100% - 28px));
-  margin: 0 auto;
-  padding: 0.25rem 0 4.5rem;
+  width: 100%;
+  margin: 0;
+  padding: 0.25rem 14px 4.5rem;
   list-style: none;
 }
 
 .episode {
-  width: calc((100% - 12px) / 2);
+  width: auto;
+  min-width: 0;
 }
 
 .episode a,
@@ -138,12 +138,9 @@ h1 .cafe {
 
 @media (min-width: 1024px) {
   .episodes {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 16px;
-    width: min(1200px, calc(100% - 48px));
-  }
-
-  .episode {
-    width: calc((100% - 64px) / 5);
+    padding: 0.25rem 20px 4.5rem;
   }
 }
 
