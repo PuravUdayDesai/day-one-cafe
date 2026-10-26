@@ -1,0 +1,110 @@
+:root {
+  --cream: #fcf5e3;
+  --brown: #452313;
+  --orange: #c8552a;
+  --shadow: 0 18px 44px rgba(69, 35, 19, 0.14);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--cream);
+  color: var(--brown);
+  font-family: "Nunito", "Avenir Next", "Trebuchet MS", sans-serif;
+}
+
+::selection {
+  background: var(--orange);
+  color: var(--cream);
+}
+
+.masthead {
+  padding: 3.25rem 1.25rem 2.25rem;
+  text-align: center;
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  font-size: clamp(3.4rem, 11vw, 5.1rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 0.84;
+}
+
+h1 .cafe {
+  color: var(--orange);
+  font-size: 1.14em;
+}
+
+.byline {
+  display: inline-block;
+  margin: 1.15rem 0 0;
+  padding: 0.4rem 0.95rem 0.45rem;
+  border-radius: 999px;
+  background: var(--brown);
+  color: var(--cream);
+  font-size: 0.98rem;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+
+.episodes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.75rem;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0.25rem 1.25rem 4.5rem;
+  list-style: none;
+}
+
+.episode {
+  width: min(100%, 340px);
+}
+
+.episode a,
+.episode .card {
+  display: block;
+  overflow: hidden;
+  border-radius: 28px;
+  background: var(--cream);
+  box-shadow: var(--shadow);
+}
+
+.episode a {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.episode a:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 24px 50px rgba(69, 35, 19, 0.18);
+}
+
+.episode a:focus-visible {
+  outline: 3px solid var(--orange);
+  outline-offset: 4px;
+}
+
+.episode img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .episode a {
+    transition: none;
+  }
+
+  .episode a:hover {
+    transform: none;
+  }
+}
