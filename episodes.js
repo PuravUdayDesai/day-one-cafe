@@ -6,6 +6,12 @@
 
 const episodes = [
   {
+    episode: 2,
+    title: "Problem Validation",
+    thumbnail: "thumbnails/episode-2.jpg",
+    url: "https://lnkd.in/p/edvgygsE",
+  },
+  {
     episode: 1,
     title: "Opportunity Recognition",
     thumbnail: "thumbnails/episode-1.png",
