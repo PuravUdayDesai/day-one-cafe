@@ -6,6 +6,12 @@
 
 const episodes = [
   {
+    episode: 6,
+    title: "Market Segmentation",
+    thumbnail: "thumbnails/episode-6.jpg",
+    url: "https://lnkd.in/p/gbQPMZgy",
+  },
+  {
     episode: 5,
     title: "Competitive Analysis",
     thumbnail: "thumbnails/episode-5.jpg",
