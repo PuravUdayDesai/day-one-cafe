@@ -6,6 +6,12 @@
 
 const episodes = [
   {
+    episode: 7,
+    title: "ICP (Ideal Customer Profile)",
+    thumbnail: "thumbnails/episode-7.jpg",
+    url: "https://lnkd.in/p/gTd6u3Xu",
+  },
+  {
     episode: 6,
     title: "Market Segmentation",
     thumbnail: "thumbnails/episode-6.jpg",
