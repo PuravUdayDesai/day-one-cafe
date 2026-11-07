@@ -6,6 +6,12 @@
 
 const episodes = [
   {
+    episode: 10,
+    title: "JTBD (Jobs To Be Done)",
+    thumbnail: "thumbnails/episode-10.jpg",
+    url: "https://lnkd.in/p/grbBkZkY",
+  },
+  {
     episode: 9,
     title: "Empathy Mapping",
     thumbnail: "thumbnails/episode-9.jpg",
