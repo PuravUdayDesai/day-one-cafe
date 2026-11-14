@@ -6,6 +6,12 @@
 
 const episodes = [
   {
+    episode: 15,
+    title: "Value Proposition vs Product Positioning vs Product Differentiation",
+    thumbnail: "thumbnails/episode-15.jpg",
+    url: "https://lnkd.in/p/gYHteT9F",
+  },
+  {
     episode: 14,
     title: "Product Differentiation",
     thumbnail: "thumbnails/episode-14.jpg",
