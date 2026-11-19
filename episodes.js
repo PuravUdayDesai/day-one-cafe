@@ -6,6 +6,12 @@
 
 const episodes = [
   {
+    episode: 17,
+    title: "Riskiest Assumption Test (RAT)",
+    thumbnail: "thumbnails/episode-17.jpg",
+    url: "https://lnkd.in/p/gH7DsHm5",
+  },
+  {
     episode: 16,
     title: "Painkiller vs Vitamin",
     thumbnail: "thumbnails/episode-16.jpg",
