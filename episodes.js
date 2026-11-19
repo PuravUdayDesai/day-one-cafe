@@ -6,6 +6,12 @@
 
 const episodes = [
   {
+    episode: 16,
+    title: "Painkiller vs Vitamin",
+    thumbnail: "thumbnails/episode-16.jpg",
+    url: "https://lnkd.in/p/gmAwqJ2r",
+  },
+  {
     episode: 15,
     title: "Value Proposition vs Product Positioning vs Product Differentiation",
     thumbnail: "thumbnails/episode-15.jpg",
