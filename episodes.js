@@ -6,6 +6,12 @@
 
 const episodes = [
   {
+    episode: 18,
+    title: "Assumption Mapping",
+    thumbnail: "thumbnails/episode-18.jpg",
+    url: "https://lnkd.in/p/gu3BYfmF",
+  },
+  {
     episode: 17,
     title: "Riskiest Assumption Test (RAT)",
     thumbnail: "thumbnails/episode-17.jpg",
