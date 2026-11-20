@@ -6,6 +6,12 @@
 
 const episodes = [
   {
+    episode: 20,
+    title: "Concierge MVP vs Wizard of Oz MVP",
+    thumbnail: "thumbnails/episode-20.jpg",
+    url: "https://lnkd.in/p/gA4EJF5p",
+  },
+  {
     episode: 18,
     title: "Assumption Mapping",
     thumbnail: "thumbnails/episode-18.jpg",
