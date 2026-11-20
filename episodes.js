@@ -12,6 +12,12 @@ const episodes = [
     url: "https://lnkd.in/p/gA4EJF5p",
   },
   {
+    episode: 19,
+    title: "Fake Door Test",
+    thumbnail: "thumbnails/episode-19.jpg",
+    url: "https://lnkd.in/p/gHDMca7M",
+  },
+  {
     episode: 18,
     title: "Assumption Mapping",
     thumbnail: "thumbnails/episode-18.jpg",
